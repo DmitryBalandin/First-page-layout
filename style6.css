@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Noto+Serif:ital@1&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Noto+Serif:ital@1&family=Roboto&display=swap');
+
+body{
+    font-size: 20px;
+    font-family: "Caveat", sans-serif;
+    margin-left: 30px;
+    background: #00041E;
+    color: #f1f1f1;
+    
+}
+
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 5px;
+}
+
+.info{
+    display: flex;
+    font-size: 1.2em;
+    font-style: italic;
+    line-height: 1em;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 900px;
+    
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+h4{
+    font-size: 1.2em;
+    
+    margin-bottom: 20px;
+
+}
+.info__link{
+    color: #F9DB16;
+}
+
+.info__link p{
+    margin: 0px;
+}
+
+.button{
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #B6F5FF;
+    transition-duration: 1300ms;
+    margin-left: 2px;
+}
+.button:hover{
+    background: rgb(123, 123, 207);
+    transition-duration: 400ms;
+    /* padding: 12px 17px;
+    margin-left: 0px;  */
+    opacity: 0.5;
+    
+}
+
+.button:active{
+    color: orange;
+}
+.life {
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+    flex-wrap: wrap;
+    background-image: url(./image/town.jpeg);
+    margin-top: 20px;
+    border-radius: 20px;
+   
+    background-size: cover;
+    
+}
+.life__hobby {
+    margin-right: 30px;
+}
+
+.life__hobby li{
+    /* display: inline-block; */
+    text-align: center;
+    border-bottom: 1px solid #94a120;
+}
+.life__work td:nth-child(2), .life__work td:nth-child(3){
+    color: #7b884b;
+    font-weight: bold;
+
+}
+.life__work td:nth-child(2):hover, .life__work td:nth-child(3):hover{
+    color: aliceblue;
+}
+.container{
+    padding-top: 20px;
+    margin: auto;
+    max-width: 900px;
+}
+.avatar{
+    width: 230px;
+    padding-right: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 10px rgba(70 87 118 / 15%);
+}
+a{
+    color: rgb(85, 26, 139);
+    
+}
+
+a:hover{
+    transition-duration: 0.2s;
+    color: aquamarine;
+}
+a:active{
+    color: #058065;
+}
+
+.form h2 {
+   text-align: center;
+   
+   
+}
+
+.form-group label{
+    display: block;
+}
+
+.form-group input, .form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom:1px solid rgb(94, 170, 22);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    font-size: large;
+    color: rgb(177, 221, 18);
+    cursor: pointer;
+}
+
+.form-row {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-bottom: 20px;
+
+
+}
+.form-row .form-group{
+    width: 30%;
+    min-width: 200px;
+    
+}
+
+
+.form-group textarea{
+    border: 1px solid rgb(94, 170, 22) ;
+    border-radius: 20px;
+    padding: 10px;
+    
+    
+}
